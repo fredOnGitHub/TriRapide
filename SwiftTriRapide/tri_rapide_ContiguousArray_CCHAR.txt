@@ -1,0 +1,9 @@
+MemoryLayout<CChar>.size : 1 bytes
+MemoryLayout<CChar>.alignment : 1 bytes
+MemoryLayout<CChar>.stride : 1 bytes
+Durée du chargement du tableau => 0.225172 sec
+Taille du tableau : 50000
+[ 45754 14018 19426 227 2066 32748  ... ]
+Durée du tri => 1.473018 sec
+[ 0 0 10 100 1000 10001  ... ]
+Nombre d'échanges :  500047

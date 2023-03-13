@@ -1,0 +1,28 @@
+$ time ./tri_rapide_swift
+Contenu du ficher dans String... 0.000311s
+Création de [String] <- file.components... 0.029959s
+Création de Array<Array<CChar>> <- [String]... 0.248847s
+
+
+Trier le tableau Array<Array<CChar>> avec la fonction manuelle...
+Taille ttcchar: 50000
+45754 14018 19426 227 2066 32748 48134 39741 13501 26548 
+Tri ... 1.315794s
+0 0 10 100 1000 10001 10001 10001 10002 10002 
+Nombre d'échanges :  500047
+
+
+Trier le tableau Array<String> avec la fonction manuelle ...
+Taille text: 50000
+45754 14018 19426 227 2066 32748 48134 39741 13501 26548 
+Tri ... 1.754643s
+0 0 10 100 1000 10001 10001 10001 10002 10002 
+Nombre d'échanges :  500047
+
+
+Trier le tableau avec sorted ...
+Taille text: 50000
+45754 14018 19426 227 2066 32748 48134 39741 13501 26548 
+Tri ... 0.411292s
+0 0 10 100 1000 10001 10001 10001 10002 10002 
+./tri_rapide_swift  3,79s user 0,03s system 99% cpu 3,845 total
